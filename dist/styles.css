@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background: hsl(36, 100%, 99%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 150px;
+    margin-top: 100px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger{
+    display: none;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+   
+}
+
+.navbar ul li a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.content{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;   
+}
+
+.content h1, .content-child{
+    width: 50%;
+}
+
+.content h1{
+    font-size: 56px;
+    line-height: 55px;
+    margin-right: 70px;
+    font-weight: 700;
+}
+
+.content-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-child p{
+    line-height: 25px;
+    color: hsl(236, 13%, 42%);
+    
+}
+
+.content-child button{
+    border: none;
+    background: hsl(5, 85%, 63%);
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 4px;
+    width: 160px;
+    cursor: pointer;
+}
+
+
+.left img{
+    max-width: 100%;
+}
+.right{
+    margin-left: 20px;
+    background: hsl(240, 100%, 5%);
+    width: 30%;
+}
+
+.right-child{
+    margin: 20px;
+}
+
+.right-child h1{
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 30px;
+}
+
+.right-child h2{
+    color: hsl(36, 100%, 99%);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.right-child p{
+    color: hsl(233, 8%, 79%);
+}
+
+.underline{
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    margin: 40px 0;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 72px 0 ;
+    justify-content: space-between;
+
+}
+.bottom-child{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    
+}
+
+.bottom-child img{
+    width: 100px;
+}
+
+.bottom-child div{
+    margin: 0 20px;
+}
+
+.bottom-child h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 32px;
+}
+
+.bottom-child h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.bottom-child p{
+    color: hsl(236, 13%, 42%);
+}
+
+
+
