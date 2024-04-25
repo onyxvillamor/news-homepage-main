@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     width: 100%;
     padding: 0 150px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .navbar{
@@ -43,10 +43,15 @@ body{
    
 }
 
-.navbar ul li a{
+.navbar a{
     margin: 10px 20px;
     text-decoration: none;
     color: hsl(236, 13%, 42%);
+    transition: all .3s ease;
+}
+
+.navbar a:hover{
+    color: hsl(5, 85%, 63%);
 }
 
 .top{
@@ -99,6 +104,12 @@ body{
     letter-spacing: 4px;
     width: 160px;
     cursor: pointer;
+    transition: all .2s ease;
+}
+
+.content-child button:hover{
+    background: hsl(240, 100%, 5%);
+    color: #fff;
 }
 
 
@@ -125,7 +136,14 @@ body{
     color: hsl(36, 100%, 99%);
     font-size: 18px;
     margin: 20px 0;
+    cursor: pointer;
+    transition: all .2s ease;
 }
+
+.right-child h2:hover{
+    color: hsl(35, 77%, 62%);;
+}
+
 
 .right-child p{
     color: hsl(233, 8%, 79%);
@@ -166,6 +184,12 @@ body{
 .bottom-child h2{
     font-size: 18px;
     margin: 10px 0;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.bottom-child h2:hover{
+   color: hsl(5, 85%, 63%);
 }
 
 .bottom-child p{
